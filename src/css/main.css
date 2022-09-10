@@ -1,0 +1,70 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body main {
+  margin: 2rem 1rem;
+  background-color: #eee;
+  border-radius: 5px;
+}
+body main header {
+  font-size: 2.5rem;
+  text-align: center;
+}
+body main header #title {
+  padding: 50px 0;
+}
+body main header #subtitle {
+  font-size: 1.25rem;
+}
+body main #img-div {
+  background-color: #fff;
+  margin: 1.2rem;
+}
+body main #img-div #image {
+  width: 100%;
+}
+body main #img-div #img-caption {
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 0.75rem;
+}
+body main #tribute-info-heading {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 1.2rem;
+}
+body main #tribute-info-heading::after {
+  content: ":";
+}
+body main #tribute-info-timeline-list {
+  margin: 1.2rem;
+}
+body main #tribute-info-timeline-list-item {
+  list-style-position: inside;
+  font-size: 1.1rem;
+  margin: 0.5rem;
+}
+body main #tribute-info-quote {
+  margin: 1.2rem;
+  font-size: 1.1rem;
+}
+body main #tribute-info-quote-text {
+  margin: 0.5rem;
+}
+body main #tribute-info-quote-attribution {
+  text-align: center;
+}
+body main #tribute-info-quote-attribution::before {
+  content: "-";
+}
+body main #tribute-info-entry-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1.3rem;
+}
+body main #tribute-info-entry-text a {
+  color: black;
+}
